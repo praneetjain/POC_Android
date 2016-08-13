@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name">Tausch</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_add">Add</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_offers">My Offers</string>
+    <string name="nav_item_messages">My Messages</string>
+    <string name="nav_item_settings">Settings</string>
+    <string name="nav_item_help">Help</string>
+    <string name="nav_item_about">About</string>
+    <string name="nav_item_signout">Sign out</string>
+    <string name="from_date">Posted after date</string>
+    <string name="welcome_text">For the Broncos\nBy the Broncos\nTo the Broncos\n\n\n\n
+        Special Thanks to \n<b>Professor Luke Dion</b>
+    </string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_offers</item>
+        <item>@string/nav_item_messages</item>
+        <item>@string/nav_item_settings</item>
+        <item>@string/nav_item_help</item>
+        <item>@string/nav_item_about</item>
+        <item>@string/nav_item_signout</item>
+    </string-array>
+
+    <string name="title_mymessages">My Messages</string>
+    <string name="title_myoffer">My Offer</string>
+    <string name="title_home">Home</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_help">Help</string>
+    <string name="title_about">About</string>
+
+    <string name="key_contact">Contact:</string>
+    <string name="key_city">City:</string>
+    <string name="key_price">Price:</string>
+    <string name="key_condition">Condition:</string>
+
+    <string name="title_filter">Filter</string>
+    <string name="title_sort">Sort</string>
+    <string name="spinner_title">Category</string>
+    <string name="spinner_category">Select a Category</string>
+    <string name="spinner_select_condition">Select a Condition</string>
+    <string name="heading_help">TAUSCH: Frequently Asked Questions</string>
+
+
+
+    <string name="profile_me">My Profile Pic</string>
+    <string name="profile_other">Other profile pic</string>
+    <string name="message_hint">Type your message</string>
+    <string name="send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_chat">ChatActivity</string>
+
+    <string name="about_text">
+        Tausch - Bartering made easy\n\n
+
+    A one-stop portal for buying and selling in your community. Browse through a range of categories, take photos of items, and seal the deal... all within a minute!\n\n
+
+        <b>Terms of Service</b>\n\n
+PLEASE READ THESE TERMS OF SERVICE CAREFULLY. THESE TERMS INCLUDE A MANDATORY ARBITRATION PROVISION AND CLASS ACTION WAIVER PROVISION, WHICH AFFECT YOUR RIGHTS ABOUT HOW TO RESOLVE ANY DISPUTE WITH TAUSCH, INC. BY ACCESSING OR USING OUR WEBSITE, APPLICATIONS OR OTHER PRODUCTS OR SERVICES (TOGETHER, THE “TAUSCH SERVICE”), YOU AGREE TO BE BOUND BY ALL TERMS DESCRIBED HEREIN AND ALL TERMS INCORPORATED BY REFERENCE (“TERMS”). IF YOU DO NOT AGREE TO ALL OF THESE TERMS, DO NOT ACCESS OR USE THE TAUSCH SERVICE.\n
+These Terms apply to your access to and use of the Tausch Service provided by Tausch, Inc. (“Tausch,” “we” and “us”). Additional terms (including, but not limited to, the terms of social media services and third-party payment processors) may apply to particular functionalities and features related to the Tausch Service.\n
+Note: Tausch is piloting a new electronic payments solution that is only available to certain users. As a result, some provisions of these Terms of Service related to the payments solution may not apply to all users.\n
+<b>1. Eligibility</b>\n
+ONLY USERS WHO ARE THIRTEEN (13) YEARS OF AGE OR OLDER MAY REGISTER FOR OR USE THE TAUSCH SERVICE. The Tausch Service is not targeted towards, nor intended for use by, anyone under the age of thirteen (13). If you are between the ages of thirteen (13) and eighteen (18), you may use the Tausch Service only under the supervision of a parent or legal guardian who agrees to be bound by these Terms and any applicable additional terms. You further represent and warrant that you: (a) have not previously been suspended or removed from using the Tausch Service; (b) are legally permitted to, and do, live in the United States or one of its territories, and (c) may enter into this agreement without violating any other agreement to which you are a party. If you are registering to use the Tausch Service on behalf of a legal entity, you further represent and warrant that (i) such legal entity is duly organized and validly existing under the applicable laws of the jurisdiction of its organization, and (ii) you are duly authorized by such legal entity to act on its behalf.\n
+<b>2. Account Registration and Security Responsibilities</b>\n
+<b>A. Process.</b>\n
+ In order to access the Tausch Service, you may be required to create a Tausch account (an “Account”). In connection with creating an Account, you must provide certain information (“Registration Data”) and answer all questions or fields marked “required.” You agree to: (i) provide true, accurate, current and complete Registration Data; (ii) maintain and update such Registration Data to keep it true, accurate, current and complete; and (iii) consent to allow Tausch to contact you for the purpose of confirming some or all of your Registration Data, to conduct research and to resolve disputes, as Tausch may elect to do from time to time.\n
+<b>B. Payment Options.</b>\n
+<b>1. Cash and Other Payments Determined by Users.</b> \n
+A buyer may, by agreement with the seller, elect to make payment by cash, check or other payment method accepted by the seller. Such payments are made directly between the buyer and the seller when they meet in person to complete their purchase and sale transaction, pursuant to terms they determine. Tausch is not a party to such transactions, and does not facilitate such transactions, refunds or returns in any manner.\n
+<b>3. Transactions Final.</b> \n
+Regardless of the payment method chosen, ALL PURCHASES ARE FINAL, AND THERE ARE NO REFUNDS, UNLESS YOU AND THE SELLER OTHERWISE AGREE AND MAKE ARRANGEMENTS FOR A REFUND. Tausch will not be responsible for facilitating refunds.\n
+<b>4. Taxes.</b> \n
+It is your responsibility to determine what, if any, taxes apply to each transaction you complete via the Tausch Service, including, for example, sales, use, value added, and similar taxes. It is also your responsibility to withhold, collect, report and remit the correct taxes to the appropriate tax authorities. Tausch is not responsible for withholding, collecting, reporting, or remitting any sales, use, value added, or similar tax arising from any transaction you complete via the Tausch Service.\n
+<b>5. Discontinuance of the Tausch Service</b>\n
+Tausch may, in its sole discretion and without liability to you, modify, discontinue, terminate, suspend or shut-down (temporarily or permanently) all or any portion of the Tausch Service at any time, without prior notice. Upon any such action by Tausch, you must immediately stop using the Tausch Service. You may also cancel your Account at any time.\n
+<b>6. Acceptable Use</b>\n
+When accessing or using the Tausch Service, you agree that you will not violate any law, contract, intellectual property or other third-party right or commit a tort. Without limiting the generality of the foregoing, you agree that you will not do, and will not permit any third party to do, any of the following:\n
+•	Engage in any unauthorized use of the Tausch Service (including, without limitation, political campaigning, advertising, or marketing);\n
+•	Transmit or otherwise make available any content that: (1) you do not have the right to provide or transmit using the Tausch Service, (2) may expose Tausch or its affiliates, licensors, or users to any harm or liability, or (3) is harmful, fraudulent, deceptive, threatening, harassing, defamatory, obscene, unlawful, untrue, or otherwise objectionable;\n
+•	Upload to, transmit, distribute, store, create, or otherwise sell or offer for sale anything that violates our Prohibited Items Guidelines.\n
+•	Transmit or otherwise make available any content that contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment;\n
+•	Originate, send, deliver, relay or otherwise transmit unsolicited commercial email or other messages through the Tausch Service;\n
+•	Copy any portion of the Tausch Service or any underlying content or source code;\n
+•	Reverse engineer, disassemble or decompile any portion of the Tausch Service or otherwise attempt to discover or re-create the source code to any software;\n
+•	Distribute the software or source code behind the Tausch Service to any third party;\n
+•	Make any modification, adaptation, improvement, enhancement, translation or derivative work of or to any portion of the Tausch Service;\n
+•	Remove, alter, or obscure any copyright or other proprietary notices of Tausch or its affiliates or licensors in any portion of the Tausch Service;\n
+•	Obscure or disable any advertisements that appear on or through the Tausch Service;\n
+•	Use any type of automated means, including without limitation any harvesting bot, robot, spider, script, crawler, scraper or other automated means or interface not provided by Tausch, to utilize the Tausch Service or to collect or extract data;\n
+•	Access without authorization any networks, systems, or databases used in providing the Tausch Service or any accounts associated with Tausch Service, or to access or use any information therein for any purpose;\n
+•	Attempt to probe, test, hack, or otherwise circumvent any security measures;\n
+•	Violate any requirements, policies, procedures or regulations of any network connected to the Tausch Service;\n
+•	Use the Tausch Service in any manner that could damage, disable, overburden, or otherwise impair the Tausch Service (or the networks connected to the Tausch Service);\n
+•	Interfere with or disrupt the use and enjoyment by others of the Tausch Service, including without limitation attempting, in any manner, to obtain the password, account, or other security information of any other user;\n
+•	Falsely state, impersonate, or otherwise misrepresent your identity;\n
+•	Provide false information during Account creation or when using the TruYou Badge or the Tausch Payment Solution, or otherwise provide false, inaccurate or misleading information;\n
+•	Create more than one Account or create an Account on behalf of anyone other than yourself without permission;\n
+•	Use or attempt to use another user\’s Account without authorization;\n
+•	Attempt to pay for an item using the Tausch Payment Solution with an Electronic Payment Method that you either do not own or are not validly authorized to use;\n
+•	Use the Tausch Service in any manner to stalk, harass, invade the privacy of, or otherwise cause harm to, any person;\n
+•	Use the Tausch Service in any manner that exposes Tausch to any harm or liability of any nature;\n
+•	Use the Tausch Service to infringe or violate the intellectual property rights or any other rights of anyone else (including Tausch);\n
+•	Develop any third-party applications that interact with the Tausch Service without Tausch\’s prior written consent;\n
+•	Use the Tausch Service to engage in any illegal or unauthorized purpose or to engage in, encourage, or promote activities that are unlawful, misleading, malicious or discriminatory, including, but not limited to violations of these Terms, illegal gambling, fraud, money-laundering, or terrorist activities;\n
+•	Transfer any rights granted to you under these Terms; or\n
+•	Encourage or induce any third party to engage in any of the activities prohibited under this section.\n
+If you violate any of the foregoing, Tausch reserves the right to suspend or terminate your right to access and use the Tausch Service immediately without notice, and you will have infringed Tausch\’s intellectual property and other rights, which may subject you to prosecution and damages. Tausch also reserves the right to take any remedies it deems appropriate under the circumstances if you have purchased or sold items that are in violation of this Section 7. Tausch reserves the right at all times to monitor, review, retain and disclose any information regarding your use of the Tausch Service as necessary to satisfy any applicable law, regulation, legal process or governmental request. You also acknowledge and agree that Tausch is not responsible or liable for the conduct of, or your interactions with, any users of the Tausch Service (whether online or offline). Your interactions with other users are solely between you and such users and we are not responsible or liable for any loss, damage, injury or harm which results from these interactions. In addition, enforcement of these Terms is solely in our discretion, and the absence of enforcement in some instances does not constitute a waiver of our right to enforce these Terms in other instances. These Terms do not create any private right of action on the part of any third party or any reasonable expectation or promise that the Tausch Service will not contain any content that is prohibited by these Terms.\n
+<b>7. User Content</b>\n
+In the course of using the Tausch Service, you may transmit or otherwise make available certain content, including information about yourself, content, messages, materials, data, information, text, photos, graphics, code or other items or materials (“User Content”) through interactive areas or services, such as posting items for sale, making an offer, private messaging, or other areas or services. User Content may be publicly viewable in some instances. Tausch reserves the right, but does not have the obligation, to remove, screen or edit any User Content posted or stored on the Tausch Service at any time and for any reason without notice. You will not (and will not allow or authorize any third-party to) post, upload to, transmit, distribute, store, create, solicit, disclose, or otherwise, publish through the Tausch Service any of the following:\n
+•	User Content that is, in Tausch\’s judgment, disrespectful or may expose Tausch, Users or others to harm or liability;\n
+•	User Content that may infringe the patent, trademark, trade secret, copyright, intellectual, privacy or proprietary right of any party;\n
+•	Private information of any third parties, including addresses, phone numbers and payment card information;\n
+•	Viruses, corrupted data or other harmful, disruptive, or destructive files; or\n
+•	User Content that inhibits any other person from using or enjoying the Tausch Service.\n
+You are solely responsible for creating backup copies of and replacing your User Content at your sole cost and expense. You acknowledge and agree that Tausch is not responsible for any errors or omissions that you make in connection with the Tausch Service. By submitting or posting User Content, you hereby grant to Tausch a non-exclusive, transferable, royalty-free, perpetual, irrevocable, sublicensable right to use, reproduce, modify, adapt, publish, translate, sell, create derivative works from, distribute, perform, and display the User Content, and your name, company name, location and any other information you submit with the User Content, in connection with the Tausch Service. The use of your or any other User\’s name, likeness, or identity in connection with the Tausch Service does not imply any endorsement thereof unless explicitly stated otherwise. We also have the right to disclose your identity to any third party who is claiming that any content posted by you constitutes a violation of their intellectual property rights, or of their right to privacy.\n
+<b>8. Moderation</b>\n
+You agree that Tausch may moderate access to and use of the Tausch Service in our sole discretion through any means (including, for example, blocking, filtering, deletion, delay, omission, verification, and/or termination of your access. Furthermore, we have the right to remove any posting you make on the Tausch Service if, in our opinion, your post does not comply with the content standards set out in Sections 6 and 7 above, and any other Tausch Service rules, including without limitation the Prohibited Items Guidelines. You agree not to bypass or attempt to bypass such moderation. You further agree that Tausch is not liable for moderating, not moderating or making any representations regarding moderating.\n
+<b>9. Third Party Services and Content</b>\n
+In using the Tausch Service, you may view content, utilize services, or otherwise interact with content and services provided by third parties, including, but not limited to, the Tausch Payment Solution provided by a third-party payment processor, links and/or connections to websites, applications or services of such parties (“Third-Party Content”). Tausch does not control, endorse or adopt any Third-Party Content and you acknowledge and agree that Tausch will have no responsibility for any Third Party Content, including without limitation, material that may be misleading, incomplete, erroneous, offensive, indecent or otherwise objectionable. In addition, your business or other dealings or correspondence with such third parties are solely between you and the third parties. Tausch is not responsible or liable for any damage or loss of any sort caused, or alleged to be caused, by or in connection with any such dealings, including the delivery, quality, safety, legality or any other aspect of any good or services that you may purchase or sell to or from a third party.\n
+<b>10. Feedback</b>\n
+Any comments or materials sent to us, including, but not limited to, ideas, questions, comments, suggestions, feedback or the like regarding the Tausch Service or any other products or services of Tausch (collectively, "Feedback"), is non-confidential and will become our sole property. We will have no obligation to you of any kind, monetary or non-monetary, with respect to such Feedback and will be free to reproduce, use, disclose, exhibit, display, transform, create derivative works from and distribute the Feedback to others without limitation or obligation. You waive any rights you may have to the Feedback (including any copyrights or moral rights). Further, you agree not to submit any feedback that is defamatory, illegal, and offensive or otherwise violates any right of any third party, or breaches any agreement between you and any third party.\n
+<b>11. Copyright Policy</b>\n
+A. Repeat Infringer Policy. In accordance with the Digital Millennium Copyright Act (“DMCA”) and other applicable law, Tausch has adopted a policy of terminating, in appropriate circumstances and at Tausch\’s discretion, users who are deemed to be repeat infringers. We also may, at Tausch\’s discretion, limit access to the Tausch Service and terminate access of any users who infringe any intellectual property rights of others, whether or not there is any repeat infringement.\n
+<b>12. Intellectual Property Rights</b>\n
+Unless otherwise indicated, the Tausch Service and all content, materials, information, functionality and other materials displayed, performed, contained or available on or through the Tausch Service, including, without limitation, the Tausch logo, and all designs, text, graphics, pictures, information, data, sound files, images, illustrations, software, other files, and the selection and arrangement thereof (collectively, the “Materials”) are the proprietary property of Tausch or its affiliates or licensors, and are protected by U.S. and international copyright laws and other intellectual property rights laws.\n
+Except as otherwise provided, subject to your compliance with all of the terms and conditions of these Terms, and in consideration of your promises reflected herein (and with respect to any services requiring payment of fees, your payment of such fees), we grant to you a revocable, personal, non-exclusive, non-assignable and non-transferable license for personal, non-commercial purposes, except where explicitly provided otherwise, to (i) access and use the Tausch Service, (ii) cause the Materials to be displayed from a computer and/or mobile device and (iii) use the Materials, solely as permitted under these Terms (the “License”). Tausch and its affiliates and licensors reserve all rights not expressly granted to you in these Terms. You agree that these Terms do not grant you any rights in or licenses to the Tausch Service or the Materials, except for this express, limited License. You will not otherwise copy, transmit, distribute, sell, resell, license, de-compile, reverse engineer, disassemble, modify, publish, participate in the transfer or sale of, create derivative works from, perform, display, incorporate into another website, or in any other way exploit any of the Materials or any other part of the Tausch Service or any derivative works thereof, in whole or in part for commercial or non-commercial purposes. Without limiting the foregoing, you agree not to frame or display the Tausch Service or Materials (or any portion thereof) as part of any other website or any other work of authorship without our prior written permission. The License granted under this Section will automatically terminate if we suspend or terminate your access to the Tausch Service.\n
+<b>13. Trademarks</b>\n
+Tausch, Tauschapp.com and other Tausch graphics, logos, page headers, buttons, icons, scripts, and service names are trademarks, registered trademarks, or trade dress of Tausch or its affiliates in the U.S. and/or other countries, and may not be copied, imitated, or used, in whole or in part, without Tausch\’s prior written consent. You will not use any trademark, product or service name of Tausch without our prior written permission, including without limitation any metatags or other “hidden text” utilizing any trademark, product of service name of Tausch. All other registered trademarks and service marks are used for reference purposes only, and remain the property of their respective owners. Reference to any products, services, processes or other information, by name, trademark, manufacturer, supplier or otherwise does not constitute or imply an endorsement, sponsorship or recommendation by Tausch.
+<b>14. Suspension; Termination.</b>\n
+Tausch may revoke or terminate your License to access or use the Tausch Service for any reason without notice at Tausch\’s sole discretion. Without limiting the generality of the foregoing, we may revoke or terminate the License if you: (i) breach any obligation in these Terms or in any other agreement between you and us, (ii) violate any policy or guideline applicable to the Tausch Service or Materials, or any other Tausch product or service, or (iii) use the Tausch Service or the Materials other than as specifically authorized in these Terms, without our prior written permission. You will stop accessing or using the Tausch Service immediately if Tausch suspends or terminates your License to access or use the Tausch Service. Tausch reserves the right, but does not undertake any duty, to take appropriate legal action including the pursuit of civil, criminal, or injunctive redress against you for continuing to use the Tausch Service during suspension or after termination. Tausch may recover its reasonable attorneys\’ fees and court costs from you for such action. These Terms will remain enforceable against you while your License to access or use the Tausch Service is suspended and after it is terminated.\n
+You may also terminate your License to access or use the Tausch Service by closing your Tausch Account at any time. For more details on how to close your Tausch Account, please refer to our FAQs.\n
+<b>15. Disclaimer of Warranties</b>\n
+A. TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW, AND EXCEPT AS EXPRESSLY PROVIDED TO THE CONTRARY IN A WRITING BY US, THE TAUSCH SERVICE, THE MATERIALS AND ANY ITEMS SOLD BY USERS THROUGH THE TAUSCH SERVICE ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW, WE EXPRESSLY DISCLAIM, AND YOU WAIVE, ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT AS TO THE TAUSCH SERVICE, INCLUDING THE INFORMATION, CONTENT AND MATERIALS CONTAINED THEREIN, AND ANY ITEMS SOLD THROUGH THE TAUSCH SERVICE.\n
+B. WITHOUT LIMITING THE FOREGOING, NEITHER TAUSCH NOR ANY OF ITS AFFILIATES OR LICENSORS, NOR THE RESPECTIVE OFFICERS, DIRECTORS, LICENSORS, EMPLOYEES OR REPRESENTATIVES OF SUCH PARTIES (COLLECTIVELY, THE "TAUSCH PROVIDERS") REPRESENT OR WARRANT (I) THAT THE TAUSCH SERVICE, MATERIALS OR ITEMS SOLD THROUGH THE TAUSCH SERVICE WILL MEET YOUR REQUIREMENTS OR BE ACCURATE, COMPLETE, APPROPRIATE, RELIABLE OR ERROR FREE; (II) THAT THE TAUSCH SERVICE, MATERIALS OR ITEMS SOLD THROUGH THE TAUSCH SERVICE WILL ALWAYS BE AVAILABLE OR WILL BE UNINTERRUPTED, ACCESSIBLE, TIMELY, RESPONSIVE OR SECURE; (III) THAT ANY DEFECTS WILL BE CORRECTED, OR THAT THE TAUSCH SERVICE, MATERIALS OR ITEMS SOLD THROUGH THE TAUSCH SERVICE WILL BE FREE FROM VIRUSES, "WORMS," "TROJAN HORSES" OR OTHER HARMFUL PROPERTIES; (IV) THE ACCURACY, RELIABILITY, TIMELINESS OR COMPLETENESS OF ANY MATERIALS AVAILABLE ON OR THROUGH THE TAUSCH SERVICE; (V) ANY IMPLIED WARRANTY ARISING FROM COURSE OF DEALING OR USAGE OF TRADE; (VI) THAT THE TAUSCH SERVICE, MATERIALS OR ITEMS SOLD THROUGH THE TAUSCH SERVICE ARE NON-INFRINGING; OR (VII) THAT ANY BADGE IS A REPRESENTATION AS TO THE IDENTITY, CHARACTER OR INTEGRITY OF ANY PERSON, BUSINESS, OR ENTITY THAT IS ASSOCIATED WITH A BADGE.\n
+C. YOU ACKNOWLEDGE THAT INFORMATION YOU STORE OR TRANSFER THROUGH THE TAUSCH SERVICE MAY BECOME IRRETRIEVABLY LOST OR CORRUPTED OR TEMPORARILY UNAVAILABLE DUE TO A VARIETY OF CAUSES, INCLUDING SOFTWARE FAILURES, PROTOCOL CHANGES BY THIRD PARTY PROVIDERS, INTERNET OUTAGES, DISASTERS, SCHEDULED OR UNSCHEDULED MAINTENANCE, OR OTHER CAUSES EITHER WITHIN OR OUTSIDE OUR CONTROL. YOU ARE SOLELY RESPONSIBLE FOR BACKING UP AND MAINTAINING DUPLICATE COPIES OF ANY INFORMATION YOU STORE OR TRANSFER THROUGH THE TAUSCH SERVICE.\n
+Some jurisdictions do not allow the disclaimer of implied terms in contracts with consumers, so some or all of the disclaimers in this section may not apply to you.\n
+<b>16. Assumption of Risk</b>\n
+You acknowledge and agree that there are risks associated with utilizing an Internet-based marketplace for the sale of goods, including but not limited to, the risk of failure of hardware, software and Internet connections, the risk of malicious software introduction, and the risk that third parties may obtain unauthorized access to information stored within your Account. You acknowledge and agree that Tausch will not be responsible for any communication failures, disruptions, errors, distortions or delays you may experience when using the Tausch Service, however caused.\n
+Tausch takes no responsibility for and will not be liable for any losses, damages or claims arising from the use of the Tausch Service, including, but not limited to, any losses, damages or claims arising from (a) server failure or data loss, (b) forgotten passwords, or (c) “phishing,” spam, viruses, third-party attacks or any other unauthorized third-party activities.\n
+<b>17. Limitation of Liability</b>\n
+A. EXCEPT AS OTHERWISE REQUIRED BY LAW, IN NO EVENT SHALL TAUSCH OR THE TAUSCH PROVIDERS BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY OTHER DAMAGES OF ANY KIND, INCLUDING BUT NOT LIMITED TO LOSS OF USE, LOSS OF PROFITS OR LOSS OF DATA, WHETHER IN AN ACTION IN CONTRACT, TORT (INCLUDING BUT NOT LIMITED TO NEGLIGENCE), PRODUCT LIABILITY, STRICT LIABILITY OR OTHERWISE, ARISING OUT OF OR IN ANY WAY CONNECTED WITH: (I) USE OF THE TAUSCH SERVICE OR MATERIALS, INCLUDING, BUT NOT LIMITED TO, ANY DAMAGE CAUSED BY ANY RELIANCE ON, OR ANY DELAYS, INACCURACIES, ERRORS OR OMISSIONS IN, ANY OF THE TAUSCH SERVICE OR MATERIALS, (II) ANY INABILITY TO USE THE TAUSCH SERVICE OR MATERIALS FOR WHATEVER REASON, OR (III) ANY GOODS OR SERVICES DISCUSSED, PURCHASED OR OBTAINED, DIRECTLY OR INDIRECTLY, THROUGH THE TAUSCH SERVICE, IN EACH CASE EVEN IF TAUSCH OR THE TAUSCH PROVIDERS ARE ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, INCLUDING WITHOUT LIMITATION ANY DAMAGES CAUSED BY OR RESULTING FROM RELIANCE BY ANY USER ON ANY INFORMATION OBTAINED FROM COMPANY, OR THAT RESULT FROM MISTAKES, OMISSIONS, INTERRUPTIONS, DELETION OF FILES OR EMAIL, ERRORS, DEFECTS, VIRUSES, DELAYS IN OPERATION OR TRANSMISSION OR ANY FAILURE OF PERFORMANCE, WHETHER OR NOT RESULTING FROM A FORCE MAJEURE EVENT, COMMUNICATIONS FAILURE, THEFT, DESTRUCTION OR UNAUTHORIZED ACCESS TO TAUSCH\’S RECORDS, PROGRAMS OR SERVICES.\n
+Some jurisdictions do not allow the exclusion of certain warranties or the limitation or exclusion of liability for incidental or consequential damages. Accordingly, some of the limitations of this section may not apply to you.\n
+B. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE AGGREGATE LIABILITY OF TAUSCH OR THE TAUSCH PROVIDERS, WHETHER IN CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE, WHETHER ACTIVE, PASSIVE OR IMPUTED), PRODUCT LIABILITY, STRICT LIABILITY OR OTHER THEORY, ARISING OUT OF OR RELATING TO THE USE OF, OR INABILITY TO USE, COMPANY OR TO THESE TERMS EXCEED ANY COMPENSATION YOU PAY, IF ANY, TO TAUSCH FOR ACCESS TO OR USE OF THE TAUSCH SERVICE OR MATERIALS.\n
+<b>18. Indemnity</b>\n
+You agree to hold harmless, defend and indemnify Tausch and the Tausch Providers from all liabilities, losses, damages, deficiencies, claims, causes of action, demands and expenses, (including, but not limited to, reasonable attorneys\' fees), that are due to, arise from or otherwise relate to your conduct or your use or misuse of the Tausch Service or Materials, including, without limitation, any actual or threatened suit, demand or claim made against Tausch or any Tausch Provider that arises out of or relates to: (i) any intellectual property rights or other proprietary rights of any third party, (ii) your breach of these Terms including without limitation your breach of any of your representations and warranties; (iii) your use of any of the Tausch Service or Materials; or (iv) any content that you store on or transmit through the Tausch Service. Tausch may assume exclusive control of any defense of any matter subject to indemnification by you, and you agree to cooperate with Tausch in such event.\n
+<b>19. Arbitration</b>\n
+PLEASE READ THE FOLLOWING SECTION CAREFULLY BECAUSE IT REQUIRES YOU TO SUBMIT TO BINDING ARBITRATION (INCLUDING A JURY TRIAL WAIVER) ANY AND ALL DISPUTES (OTHER THAN SPECIFIED INTELLECTUAL PROPERTY CLAIMS AND SMALL CLAIMS) WITH TAUSCH AND IT LIMITS THE MANNER IN WHICH YOU CAN SEEK RELIEF FROM TAUSCH (NO CLASS ARBITRATIONS, CLASS ACTIONS OR REPRESENTATIVE ACTIONS OR ARBITRATIONS).\n
+A. Binding Arbitration. Except for any disputes, claims, suits, actions, causes of action, demands or proceedings (collectively, “Disputes”) arising out of or related to a violation of Section 7 or Disputes in which either party seeks to bring an individual action in small claims court or seeks injunctive or other equitable relief for the alleged unlawful use of intellectual property, including, without limitation, copyrights, trademarks, trade names, logos, trade secrets or patents, you and Tausch agree (1) to waive your and Tausch\’s respective rights to have any and all Disputes arising from or related to these Terms, the Tausch Service or the Materials, resolved in a court, and (2) to waive your and Tausch\’s respective rights to a jury trial. Instead, you and Tausch agree to arbitrate Disputes through binding arbitration (which is the referral of a Dispute to one or more persons charged with reviewing the Dispute and making a final and binding determination to resolve it instead of having the Dispute decided by a judge or jury in court).\n
+B. No Class Arbitrations, Class Actions or Representative Actions. You and Tausch agree that any Dispute arising out of or related to these Terms, the Tausch Service or the Materials is personal to you and Tausch and that such Dispute will be resolved solely through individual arbitration and will not be brought as a class arbitration, class action or any other type of representative proceeding. You and Tausch agree that there will be no class arbitration or arbitration in which an individual attempts to resolve a Dispute as a representative of another individual or group of individuals. Further, you and Tausch agree that a Dispute cannot be brought as a class or other type of representative action, whether within or outside of arbitration, or on behalf of any other individual or group of individuals.\n
+C. Federal Arbitration Act. You and Tausch agree that these Terms affect interstate commerce and that the enforceability of this Section 20 shall be both substantively and procedurally governed by and construed and enforced in accordance with the Federal Arbitration Act, 9 U.S.C. § 1 et seq. (the “FAA”), to the maximum extent permitted by applicable law.\n
+D. Notice; Informal Dispute Resolution. You and Tausch agree that each party will notify the other party in writing of any arbitrable or small claims Dispute within thirty (30) days of the date it arises, so that the parties can attempt in good faith to resolve the Dispute informally. Notice to Tausch shall be sent by certified mail or courier to Tausch, Inc., Attn: Tausch Designated Agent, 227 Bellevue Way NE #57, Bellevue, Washington 98004. Your notice must include (1) your name, postal address, telephone number, the email address you use or used for your Tausch Account, and, if different, an email address at which you can be contacted, (2) a description in reasonable detail of the nature or basis of the Dispute, and (3) the specific relief that you are seeking. Pursuant to Section 4, our notice to you will be sent to the email address you used to register for your Tausch Account, and will include (a) our name, postal address, telephone number and an email address at which we can be contacted with respect to the Dispute, (b) a description in reasonable detail of the nature or basis of the Dispute, and (c) the specific relief that we are seeking. If you and Tausch cannot agree how to resolve the Dispute within thirty (30) days after the date notice is received by the applicable party, then either you or Tausch may, as appropriate and in accordance with this Section 20, commence an arbitration proceeding, or to the extent specifically provided for in section 20(A), file a claim in court.\n
+E. Process. Except for Disputes arising out of or related to a violation of Section 7 or Disputes in which either party seeks to bring an individual action in small claims court or seeks injunctive or other equitable relief for the alleged unlawful use of intellectual property, including without limitation, copyrights, trademarks, trade names, logos, trade secrets or patents, you and Tausch agree that any Dispute must be commenced or filed by you or Tausch within one (1) year of the date the Dispute arose, otherwise the underlying claim is permanently barred (which means that you and Tausch will no longer have the right to assert such claim regarding the Dispute). You and Tausch agree that (1) any arbitration will occur in King County, Washington, (2) arbitration will be conducted confidentially by a single arbitrator in accordance with the rules of the Judicial Arbitration and mediation Services (“JAMS”), which are hereby incorporated by reference, and (3) that the state or federal courts of the State of Washington and the United States, respectively, sitting in King County, Washington have exclusive jurisdiction over any appeals and the enforcement of an arbitration award. You may also litigate a Dispute in the small claims court located in the county of your billing address if the Dispute meets the requirements to be heard in small claims court.\n
+F. Authority of the Arbitrator. As limited by the FAA, these Terms and the applicable JAMS rules, the arbitrator will have (1) the exclusive authority and jurisdiction to make all procedural and substantive decisions regarding a Dispute, including the determination of whether a Dispute is arbitrable, and (2) the authority to grant any remedy that would otherwise be available in court; provided, however, that the arbitrator does not have the authority to conduct a class arbitration or a representative action, which is prohibited by these Terms. The arbitrator may only conduct an individual arbitration and may not consolidate more than one individual\’s claims, preside over any type of class or representative proceeding or preside over any proceeding involving more than one individual.\n
+G. Rules of JAMS. The rules of JAMS and additional information about JAMS are available on the JAMS website. By agreeing to be bound by these Terms, you either (1) acknowledge and agree that you have read and understand the rules of JAMS, or (2) waive your opportunity to read the rules of JAMS and any claim that the rules of JAMS are unfair or should not apply for any reason.\n
+H. Severability. If any term, clause or provision of this Section 20 is held invalid or unenforceable, it will be so held to the minimum extent required by law, and all other terms, clauses and provisions of this Section 20 will remain valid and enforceable. Further, the waivers set forth in Section 20(B) are severable from the other provisions of these Terms and will remain valid and enforceable, except as prohibited by applicable law.\n
+<b>20. Governing Law; Venue.</b>\n
+These Terms, your access to and use of the Tausch Service and Materials shall be governed by and construed and enforced in accordance with the laws of the State of Washington without regard to conflict of law rules or principles (whether of the State of Washington or any other jurisdiction) that would cause the application of the laws of any other jurisdiction. Any Dispute between the parties that is not subject to arbitration or cannot be heard in small claims court, shall be resolved in the state or federal courts of the State of Washington and the United States, respectively, sitting in King County, Washington.
+<b>21. Miscellaneous</b>\n
+A. Entire Agreement; Order of Precedence. These Terms contain the entire agreement, and supersede all prior and contemporaneous understandings between the parties regarding the Tausch Service. These Terms do not alter the terms or conditions of any other electronic or written agreement you may have with Tausch for the Tausch Service or for any other Tausch product, feature, service or otherwise. In the event of any conflict between these Terms and any other agreement you may have with Tausch, the terms of that other agreement will control only if these Terms are specifically identified and declared to be overridden by such other agreement.\n
+B. Amendments. We reserve the right to make changes or modifications to these Terms from time to time, in our sole discretion. If we make changes to these Terms, we will provide you with notice of such changes, such as by sending you an email and/or by posting the amended Terms via the Tausch Service and updating the “Last Updated” date at the top of these Terms. All amended Terms will become effective immediately on the date they are posted to the Tausch Service unless we state otherwise via our notice of such amended Terms. Any amended Terms will apply prospectively to use of the Tausch Service after such changes become effective. Your continued use of the Tausch Service following the effective date of such changes will constitute your acceptance of such changes. If you do not agree to any amended Terms, you must discontinue using the Tausch Service.\n
+C. Severability. If any provision of these Terms is held to be unenforceable for any reason, such provision will be reformed only to the extent necessary to make it enforceable, and such decision will not affect the enforceability of such provision under other circumstances, or of the remaining provisions hereof under all circumstances.\n
+D. Waiver. Our failure or delay in exercising any right, power or privilege under these Terms will not operate as a waiver thereof.\n
+E. Relationship. Tausch is an independent contractor for all purposes, and is not your agent or trustee.\n
+F. Assignment. You may not assign or transfer any of your rights or obligations under these Terms without prior written consent from Tausch, including by operation of law or in connection with any change of control. Tausch may assign or transfer any or all of its rights under these Terms, in whole or in part, without obtaining your consent or approval.\n
+G. Headings. Headings of sections are for convenience only and will not be used to limit or construe such sections.\n
+H. Survival. Sections 16 (Disclaimer of Warranties), 18 (Limitation of Liability), 19 (Indemnity), 20 (Arbitration), 21 (Governing Law; Venue), this Section 22 (Miscellaneous), and any other term that, by its nature, should survive, will survive any termination or expiration of these Terms.\n
+
+
+
+
+    </string>
+
+
+
+    <string name="faqs"><b>GETTING STARTED</b>\n
+    <b>1.	When can I start buying or selling on Tausch?</b>\n
+    To become either a buyer or a seller, you will have to register yourself at the time of signing in for the first time. Once you have created your profile and your email has been verified, you will be able to login, browse through categories of your choice, and buy or sell items.\n\n\n
+
+    <b>2.	What do I do if I have forgotten my password?</b>\n
+    You can click on the link “Forgot Password” on the login page. An email containing the password reset link will be sent to your registered email account. Once you click on that link, you will be able to reset your password.\n\n\n
+
+    <b>3.	Can I have more than one account on Tausch?</b>\n
+    A user will be able to use Tausch with a unique registered email address. If you have more than one account using different email addresses, you will still be able to use Tausch as two separate users. But it is recommended that a user uses one account so that you will be able to better track your offers and communication.\n\n\n
+    <b>4.	What devices or OS does Tausch run on?</b>\n
+    Currently, we are enabling Tausch to be functional across all mobile devices that run on the Android OS. We will soon be releasing the iOS version.\n\n\n
+    <b>BROWSING AND SEARCHING</b>\n
+    <b>1.	How do I search?</b>\n
+    You will find a small magnifying glass on the top right of your Tausch app that will help you search based on your preferences.\n\n\n
+
+    <b>2.	Can I search with specific keywords?</b>\n
+    Yes. You will be able to enter words of your choice into the search bar. The app will use these words to search across various offers to give you the results you want.\n\n\n
+    <b>3.	What are my options to customize my search?</b>\n
+    You will be able to specify keywords in the search bar. But to further customize your search, you have the advantage of using the “Filter” button on the top left of your Tausch app. Using the Filter button, you can specify the city and zip code, the specific category, and many more.\n\n\n
+
+    <b>4.	How do I get the best search results?</b>\n
+    This depends on the kind of keywords that you are using and also the filter criteria you apply. But if you are sure of the category you want to search in, it is recommended that you click on that particular category and then perform the search and filter operations.\n\n\n
+
+    <b>CREATING, MODIFYING, AND DELETING AN OFFER</b>\n
+    <b>1.	How do I create a new offer?</b>\n
+    You will need to click on the “+” button on the top right of your Tausch app to create a new offer. Once you click, you will have to enter your offer information, such as choosing the appropriate category, title, description, price, and pictures. You will be able to upload 5 pictures per offer, though this is not mandatory.\n\n\n
+    <b>2.	How do I modify or delete my offer?</b>\n
+
+    You will need to click on Menu, and choose My Offers from the drop down list. From the list of your offers, choose the offer that you need to modify or delete, and click on the “compose” button for modification or “trash” button for deletion of your offer.\n\n\n
+
+    <b>MESSAGES</b>\n
+    <b>1.	How do I contact the owner of a post?</b>\n
+    Whenever you click on an offer, you will see a “send message” button. If you click on it, you will be able to send a message directly to the owner of the offer. To see the continued chat thread, you can go to Menu, click on My Messages, and then choose the appropriate chat thread for the latest chat updates.\n\n\n
+    <b>2.	How will I be alerted of new messages?</b>\n
+    Tausch enables you to receive latest updates to your messages. With only a connection the
+    Internet, if you receive a reply, you will be able to see a notification under Menu, My messages.\n\n\n
+
+    <b>DELETING AN ACCOUNT</b>\n
+    <b>1.	How do I delete my account?</b>\n
+    You will be able to deactivate your account by going to Menu and Settings. If you want to reactivate your account to use Tausch, you have to register once again. If you use the same registration details like your first time, and if you register within 365 days from the day you had deactivated your account, you will still be able to view your old offer data.\n\n\n
+
+    <b>PROFILE INFORMATION</b>\n
+    <b>1.	How do I edit my profile information?</b>\n
+    You can go to Menu, and choose Settings to update or modify your profile information. You also have the option of adding a profile picture for your account, but this is not mandatory.\n\n
+
+
+    </string>
+
+
+    <string name="bottom_label">TERMS OF SERVICE</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut est diam, laoreet ac volutpat eget, commodo non eros. Nam convallis tortor porta ipsum congue, eu blandit felis convallis. Vestibulum ut arcu ut est elementum bibendum vitae a velit. Suspendisse auctor sapien ut ornare faucibus. Fusce non pulvinar ipsum, sit amet elementum ipsum. Mauris molestie eros eu consectetur venenatis. Fusce ut lorem vitae neque tristique ullamcorper. Duis eleifend eros ipsum. Cras non felis enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec sed quam lectus. Aliquam et erat luctus magna sodales ullamcorper. Cras accumsan nec eros sit amet commodo.
+
+Vestibulum ullamcorper lorem in sapien consectetur condimentum. Mauris nec aliquam nibh. Phasellus sed turpis in ex molestie facilisis vel nec sapien. Nulla tincidunt, odio in consequat finibus, arcu nisi aliquet nibh, dapibus consequat orci dui a massa. Fusce eget tristique mauris. Donec sem leo, faucibus non laoreet eu, consequat quis erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc malesuada nunc eget sem consectetur vehicula.
+
+Proin eu volutpat ante, non vulputate ex. Fusce scelerisque odio quam, ac tristique massa viverra et. Pellentesque in nibh a mi pharetra malesuada et nec arcu. Nulla porttitor sed nisl vitae facilisis. Nunc at arcu vitae mi mollis viverra. Aliquam ultrices ligula erat, eu molestie enim sollicitudin in. Pellentesque dictum, nunc vitae mattis finibus, dolor velit consectetur mi, eu scelerisque arcu mauris at est. Integer viverra suscipit pulvinar. Morbi non justo odio. Morbi egestas sapien turpis, et pellentesque mauris cursus dignissim. Pellentesque non ligula fermentum, placerat dolor at, cursus libero.</string>
+
+</resources>

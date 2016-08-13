@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dialogBoxBackground"
+    android:clickable="true"
+    tools:context="com.scu.tausch.Activities.HelpFragment">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:text="@string/heading_help"
+        android:textStyle="bold"/>
+
+
+    <ScrollView
+        android:id="@+id/help_scrollbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_above="@+id/bottom_label"
+        android:layout_below="@+id/heading"
+        android:fillViewport="true">
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:text="@string/faqs"
+        />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bottom_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:padding="8dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/textColorPrimary"
+        android:background="@drawable/rounded_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:text="Contact us!"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/dialogBoxBackground"
+    android:clickable="true"
+    tools:context=".Activities.FilterFragment"
+    android:id="@+id/mySortFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textColorPrimary"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/top_heading"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/textColorPrimary"
+            android:text="City"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <ImageView
+            android:id="@+id/black_border_one"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/grayPatchListColor"/>
+
+        <EditText
+            android:id="@+id/edit_city_of_item"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:singleLine="true"
+            android:background="#FFFFFF"
+            android:paddingLeft="20dp"
+            android:hint="Which city is the item in?" />
+
+        <ImageView
+            android:id="@+id/black_border_two"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/grayPatchListColor"/>
+
+        <TextView
+            android:id="@+id/price_heading"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/textColorPrimary"
+            android:text="Price"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <ImageView
+            android:id="@+id/black_border_three"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/grayPatchListColor"/>
+
+        <EditText
+            android:id="@+id/edit_min_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:inputType="number"
+            android:paddingLeft="20dp"
+            android:hint="Minimum $" />
+
+        <ImageView
+            android:id="@+id/black_border_four"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/grayPatchListColor"/>
+
+        <EditText
+            android:id="@+id/edit_max_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:background="#FFFFFF"
+            android:inputType="number"
+            android:hint="Maximum $" />
+
+        <!--EditText
+            android:id="@+id/edit_posted_after_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="@string/from_date" /-->
+
+        <ImageView
+            android:id="@+id/black_border_six"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/grayPatchListColor"/>
+
+
+        <TextView
+            android:id="@+id/condition_heading"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/textColorPrimary"
+            android:text="Condition"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <ImageView
+            android:id="@+id/black_border_seven"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/grayPatchListColor"/>
+
+        <Spinner
+            android:id="@+id/spinner_condition"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:prompt="@string/spinner_select_condition"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:clickable="true"
+            android:text="Filter"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            />
+
+
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:clickable="true"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</RelativeLayout>

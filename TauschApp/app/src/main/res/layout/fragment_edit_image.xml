@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/myImageAddFragment"
+    android:background="@color/dialogBoxBackground"
+    android:clickable="true"
+    tools:context="com.scu.tausch.Activities.EditImageFragment">
+
+    <TextView
+        android:id="@+id/top_heading"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Upload Photos"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout_top_three_images"
+        android:layout_below="@+id/top_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/image_one"
+            android:layout_width="@dimen/image_upload_w_h"
+            android:layout_height="@dimen/image_upload_w_h"
+            android:src="@mipmap/item_placeholder"/>
+
+        <ImageView
+            android:id="@+id/image_two"
+            android:layout_width="@dimen/image_upload_w_h"
+            android:layout_height="@dimen/image_upload_w_h"
+            android:src="@mipmap/item_placeholder"/>
+
+        <ImageView
+            android:id="@+id/image_three"
+            android:layout_width="@dimen/image_upload_w_h"
+            android:layout_height="@dimen/image_upload_w_h"
+            android:src="@mipmap/item_placeholder"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_bottom_two_images"
+        android:layout_below="@+id/layout_top_three_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/image_four"
+            android:layout_width="@dimen/image_upload_w_h"
+            android:layout_height="@dimen/image_upload_w_h"
+            android:src="@mipmap/item_placeholder"/>
+
+        <ImageView
+            android:id="@+id/image_five"
+            android:layout_width="@dimen/image_upload_w_h"
+            android:layout_height="@dimen/image_upload_w_h"
+            android:src="@mipmap/item_placeholder"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/button_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimary"
+            android:paddingRight="8dp"
+            android:textAllCaps="false"
+            android:paddingLeft="8dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:textColor="@color/textColorPrimary"
+            android:paddingRight="8dp"
+            android:textAllCaps="false"
+            android:paddingLeft="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</RelativeLayout>

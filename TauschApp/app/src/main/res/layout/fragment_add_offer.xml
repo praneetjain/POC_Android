@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialogBoxBackground"
+    android:clickable="true"
+    android:padding="10dp"
+    android:id="@+id/myFilterFragment"
+    tools:context=".Activities.AddOfferFragment">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_above="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/dialogBoxBackground"
+            android:clickable="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/labelTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/textColorPrimary"
+                    android:text="Title and Description"
+                    android:textSize="18dp"
+                    android:gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/colorPrimary"
+                    />
+                <ImageView
+                    android:id="@+id/black_border_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_below="@id/labelTitle"
+                    android:background="@color/grayPatchListColor"/>
+
+                <EditText
+                    android:id="@+id/edit_titleListing"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:singleLine="true"
+                    android:background="#FFFFFF"
+                    android:paddingLeft="20dp"
+                    android:layout_below="@id/black_border_one"
+                    android:hint="Title for the listing" />
+
+                <ImageView
+                    android:id="@+id/black_border_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_below="@id/edit_titleListing"
+                    android:background="@color/grayPatchListColor"/>
+
+                <EditText
+                    android:id="@+id/edit_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:paddingLeft="20dp"
+                    android:layout_below="@id/black_border_two"
+                    android:background="#FFFFFF"
+                    android:hint="Description" />
+
+                <ImageView
+                    android:id="@+id/black_border_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_below="@id/edit_description"
+                    android:background="@color/grayPatchListColor"/>
+
+                <TextView
+                    android:id="@+id/labelZIP"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/textColorPrimary"
+                    android:text="ZIP Code and Price"
+                    android:textSize="18dp"
+                    android:gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:paddingLeft="20dp"
+                    android:layout_below="@id/black_border_three"
+                    android:textColor="@color/colorPrimary"
+                    />
+                <ImageView
+                    android:id="@+id/black_border_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_below="@id/labelZIP"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/grayPatchListColor"/>
+
+                <LinearLayout
+                    android:id="@+id/layout_zip_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:weightSum="2"
+                    android:layout_below="@id/black_border_four"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edit_zip"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="20dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF"
+                        android:inputType="number"
+                        android:hint="Zip" />
+
+                    <TextView
+                        android:id="@+id/text_city"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:textSize="18dp"
+                        android:textColor="#000000"
+                        android:background="#FFFFFF"
+                        />
+
+                </LinearLayout>
+
+
+
+                <ImageView
+                    android:id="@+id/black_border_five"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/layout_zip_city"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/grayPatchListColor"/>
+
+                <EditText
+                    android:id="@+id/edit_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:inputType="numberDecimal"
+                    android:maxLength="7"
+                    android:layout_below="@id/black_border_five"
+                    android:paddingLeft="20dp"
+                    android:background="#FFFFFF"
+                    android:hint="$" />
+
+                <ImageView
+                    android:id="@+id/black_border_six"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/edit_price"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/grayPatchListColor"/>
+
+                <TextView
+                    android:id="@+id/labelCategoryCondition"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/textColorPrimary"
+                    android:text="Category and Condition"
+                    android:textSize="18dp"
+                    android:layout_below="@id/black_border_six"
+                    android:gravity="center_vertical"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:paddingLeft="20dp"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+                <ImageView
+                    android:id="@+id/black_border_seven"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/labelCategoryCondition"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/grayPatchListColor"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/black_border_seven"
+                    android:background="@color/textColorPrimary"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/spinner_category"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="20dp"
+                        android:prompt="@string/spinner_title"/>
+
+                    <Spinner
+                        android:id="@+id/spinner_condition"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="20dp"
+                        android:prompt="@string/spinner_title"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/textColorPrimary"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

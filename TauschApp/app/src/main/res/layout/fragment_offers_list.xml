@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dialogBoxBackground"
+    android:id="@+id/myItemsInCategoryWindow"
+    android:clickable="true"
+    tools:context="com.scu.tausch.Activities.OffersList">
+
+<TextView
+    android:id="@android:id/empty"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:textSize="24dp"/>
+
+    <RelativeLayout
+        android:id="@+id/container_toolbar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbarBottom"
+        layout="@layout/toolbar" />
+
+    <Button
+        android:id="@+id/button_filter"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/toolbarBottom"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:background="@color/grayPatchListColor"
+        android:text="Filter" />
+
+    <Button
+        android:id="@+id/button_sort"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/grayPatchListColor"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_alignTop="@+id/toolbarBottom"
+        android:text="Sort" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_items_in_category"
+        android:layout_below="@+id/container_toolbar_bottom"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5.0sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+    </ListView>
+
+
+
+</RelativeLayout>

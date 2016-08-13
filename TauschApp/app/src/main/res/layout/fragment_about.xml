@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dialogBoxBackground"
+    android:clickable="true"
+    tools:context="com.scu.tausch.Activities.AboutFragment">
+
+    <ScrollView
+        android:id="@+id/help_scrollbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_above="@+id/bottom_label"
+        android:layout_below="@+id/heading"
+        android:fillViewport="true">
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:textSize="14dp"
+        android:text="@string/about_text"
+        />
+</ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialogBoxBackground"
+    android:clickable="true"
+    android:padding="10dp"
+    tools:context="com.scu.tausch.Activities.SettingsFragment">
+
+
+
+    <com.scu.tausch.Misc.RoundedImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="@dimen/setting_image_w_h"
+        android:layout_height="@dimen/setting_image_w_h"
+        android:src="@mipmap/item_placeholder"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/label"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/label_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/textColorPrimary"
+        android:text="Name"
+        android:textSize="18dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/profile_picture"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <ImageView
+        android:id="@+id/black_border_one"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/label_name"
+        android:background="@color/grayPatchListColor"/>
+
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/black_border_one"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@color/textColorPrimary"
+        android:hint="First Name"
+        android:singleLine="true"/>
+
+    <ImageView
+        android:id="@+id/black_border"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/first_name"
+        android:background="@color/grayPatchListColor"/>
+
+
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/textColorPrimary"
+        android:hint="Last Name"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@+id/black_border"
+        android:singleLine="true"/>
+
+    <ImageView
+        android:id="@+id/black_border_seperator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/last_name"
+        android:background="@color/grayPatchListColor"/>
+
+    <TextView
+        android:id="@+id/label_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/textColorPrimary"
+        android:text="Phone"
+        android:textSize="18dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/black_border_seperator"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <ImageView
+        android:id="@+id/black_border_two"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/label_phone"
+        android:background="@color/grayPatchListColor"/>
+
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/black_border_two"
+        android:background="@color/textColorPrimary"
+        android:hint="Phone Number"
+        android:phoneNumber="true"
+        android:inputType="number"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/phone_number"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:clickable="true"
+            android:onClick="onChangeClicked"
+            android:text="Update Information"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:id="@+id/change_label"/>
+
+
+
+        <Button
+            android:id="@+id/buttonChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:clickable="true"
+            android:onClick="onForgotClicked"
+            android:text="Change Password"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BFFF"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/splashScreenBackgroundColor"
+        android:orientation="vertical">
+
+        <TextView android:text="Tausch" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|italic"
+            android:textSize="32dp"
+            android:layout_marginTop="40dp"
+            />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:background="#FFFFFF"
+        android:singleLine="true"
+        android:hint="EMAIL" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:hint="PASSWORD"
+        android:singleLine="true"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#F5F5F5"
+        android:clickable="true"
+        android:onClick="onLoginClicked"
+        android:text="LOGIN"
+        android:textColor="@color/splashScreenBackgroundColor" />
+
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:onClick="onForgotPasswordClicked"
+            android:text="FORGOT PASSWORD"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="onSignupClicked"
+        android:text="SIGN UP"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
